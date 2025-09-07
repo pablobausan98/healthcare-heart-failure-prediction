@@ -27,26 +27,21 @@ El objetivo es convertir datos médicos en información útil para apoyar decisi
 
 ## 🧪 Metodología
 1. **Exploración y Limpieza de Datos (Python)**
-
    - Tratamiento de valores faltantes (imputación de colesterol).
    - Codificación de variables categóricas.
    - Escalado de variables numéricas.
-   
 2. **Modelado Predictivo (Python / Scikit-Learn)**
    - Regresión Logística (baseline) – Accuracy: 86%
    - Árbol de Decisión – Accuracy: 81%
    - Random Forest – Accuracy: 88%, Recall: 90%
-   - 
 3. **Consultas SQL (ejemplos)**
    - Distribución de pacientes con factores de riesgo (edad, colesterol, angina).
    - Segmentación por sexo y tipo de dolor torácico.
    - Pacientes en alto riesgo (predicciones positivas).
-   - 
 4. **Dashboard en Power BI:**
    - KPIs principales: % pacientes en riesgo, edad media, colesterol medio.
    - Distribución por sexo y tipo de dolor.
    - Comparativa de modelos predictivos.
-
 ---
 
 ## 📊 Resultados Clave
