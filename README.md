@@ -25,18 +25,33 @@ El objetivo es convertir datos médicos en información útil para apoyar decisi
 
 ---
 
-## 📊 Metodología
-1. **Exploración de datos:** revisión de valores nulos, tipos de variables y distribuciones.  
-2. **Análisis exploratorio:** visualización de correlaciones y patrones.  
-3. **Preprocesamiento:** escalado de variables y división train/test.  
-4. **Entrenamiento de modelos:** regresión logística, árbol de decisión y random forest.  
-5. **Evaluación:** métricas como accuracy, precision, recall, F1-score y matriz de confusión.  
+## 🧪 Metodología
+1. **Exploración y Limpieza de Datos (Python)**
+
+   - Tratamiento de valores faltantes (imputación de colesterol).
+   - Codificación de variables categóricas.
+   - Escalado de variables numéricas.
+   
+2. **Modelado Predictivo (Python / Scikit-Learn)**
+   - Regresión Logística (baseline) – Accuracy: 86%
+   - Árbol de Decisión – Accuracy: 81%
+   - Random Forest – Accuracy: 88%, Recall: 90%
+   - 
+3. **Consultas SQL (ejemplos)**
+   - Distribución de pacientes con factores de riesgo (edad, colesterol, angina).
+   - Segmentación por sexo y tipo de dolor torácico.
+   - Pacientes en alto riesgo (predicciones positivas).
+   - 
+4. **Dashboard en Power BI:**
+   - KPIs principales: % pacientes en riesgo, edad media, colesterol medio.
+   - Distribución por sexo y tipo de dolor.
+   - Comparativa de modelos predictivos.
 
 ---
 
-## 🚀 Resultados esperados
-- Identificación de variables clave que afectan el riesgo de insuficiencia cardíaca.  
-- Modelo predictivo con buen rendimiento.  
-- Visualizaciones claras para interpretar los resultados fácilmente.  
+## 📊 Resultados Clave
+- El modelo Random Forest fue el más preciso (88%) y con mejor recall (90%).
+- Variables más influyentes: ST_Slope, ExerciseAngina, MaxHR, Oldpeak y Age.
+- El dashboard en Power BI facilita la visualización de riesgos cardiovasculares y la comparación de métricas entre pacientes y grupos demográficos.
 
 ---
