@@ -54,7 +54,7 @@ El objetivo es convertir datos médicos en información útil para apoyar decisi
 ```healthcare-heart-failure-prediction/
 ├── README.md # Documento de presentación del proyecto
 ├── data/ # Dataset original y limpio
-│ └── heart_failure.csv # Datos de pacientes con insuficiencia cardíaca
+│ └── heart.csv # Datos de pacientes con insuficiencia cardíaca
 ├── notebooks/ # Notebooks de análisis y experimentos
 │ └── heart_failure_analysis.ipynb # Notebook principal con exploración y modelos
 ├── sql/ # Consultas SQL utilizadas en el proyecto
