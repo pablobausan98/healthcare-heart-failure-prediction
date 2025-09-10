@@ -53,12 +53,12 @@ El objetivo es convertir datos médicos en información útil para apoyar decisi
 ## 📂 Estructura del repositorio
 ```healthcare-heart-failure-prediction/
 │
+├── dashboard/ # Archivo .pbix de Power BI
 ├── data/ # Dataset original y preprocesado
+├── docs/ # Documentación y recursos adicionales
+├── images/ # Capturas del dashboard
 ├── notebooks/ # Jupyter Notebooks con EDA y modelado ML
 ├── sql/ # Consultas SQL para análisis
-├── dashboard/ # Archivo .pbix de Power BI
-├── src/ # Scripts Python reutilizables
-├── docs/ # Documentación y recursos adicionales
 └── README.md # Presentación del proyecto
 ```
 
