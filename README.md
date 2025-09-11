@@ -50,7 +50,7 @@ El objetivo es convertir datos médicos en información útil para apoyar decisi
 - El dashboard en Power BI facilita la visualización de riesgos cardiovasculares y la comparación de métricas entre pacientes y grupos demográficos.
 
 ---
-## 📂 Estructura del repositorio
+## 📂 Estructura de las carpetas
 ```healthcare-heart-failure-prediction/
 │
 ├── dashboard/ # Archivo .pbix de Power BI
